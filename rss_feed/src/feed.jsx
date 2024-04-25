@@ -8,6 +8,7 @@ const Feed= function ({title, link, date}){
             <h3  className="text-xl mb-l">{title}</h3>
             <p>{articleDate}</p>
             </a>
+            <hr/>
         </>
     )
 }
